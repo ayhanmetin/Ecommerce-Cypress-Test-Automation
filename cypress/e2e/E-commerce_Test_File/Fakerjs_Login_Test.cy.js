@@ -14,11 +14,11 @@ describe('Login Test with Dynamic Data', () => {
     cy.get('#floatingUsername').type(username);
     // Type the generated password into the password field
     cy.get('#floatingPassword').type(password);
-    // Click the login (submit) button to attempt to log in
+    // Click the sign in button to attempt to log in
     cy.get('button[type="submit"]').click();
 
-    // After login, verify that the application has redirected to the main page (homepage)
-    cy.url().should('include', '/'); // Checks if the URL is the root URL, indicating the homepage
+    // After login, verify that the application has redirected to the main page
+    cy.url().should('include', '/'); 
 
     // Verify the specific Logout button with text "Logout (Germany2024)" is present and visible on the page
     cy.contains('button', 'Logout (Germany2024)').should('be.visible');
