@@ -18,9 +18,15 @@ describe('Login Test with Dynamic Data', () => {
     cy.get('button[type="submit"]').click();
 
     // After login, verify that the application has redirected to the main page
-    cy.url().should('include', '/'); 
+    cy.url().should('include', '/');
 
     // Verify the specific Logout button with text "Logout (Germany2024)" is present and visible on the page
     cy.contains('button', 'Logout (Germany2024)').should('be.visible');
+
+    // Use cy.wait() to pause the test
+    cy.wait(1000);
+
+    // Verify the Add button's presence
+    cy.get(':nth-child(1) > .card > .card-body > .btn').should('be.visible');
   });
 });

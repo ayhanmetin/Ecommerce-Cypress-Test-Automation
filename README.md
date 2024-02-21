@@ -4,7 +4,7 @@ This document outlines the Cypress test cases developed for the login functional
 
 ### Test Cases
 
-- Faker.js for Login Test
+- Using Faker.js for Login Test
 - 
 
 
