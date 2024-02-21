@@ -5,11 +5,7 @@ This document outlines the Cypress test cases developed for the login functional
 ### Test Cases
 
 - Faker.js for Login Test
-- Negative Username Test
-- Negative Password Test
-- Username Field Validation
-- Password Strength Test
-- Password Field Validation
+- 
 
 
 [Go to tests](https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main/cypress/cypress_LoginPage_ScreenShot)
@@ -17,7 +13,7 @@ This document outlines the Cypress test cases developed for the login functional
 
 ## Faker.js for Login Test
 
-Verifies successful login with correct username and password.
+Verifies successful login with generated username and password.
 
 [Go to code](https://github.com/ayhanmetin/Ecommerce-Cypress-Test-Automation/blob/main/cypress/e2e/E-commerce_Test_File/Fakerjs_Login_Test.cy.js)
 
