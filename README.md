@@ -8,7 +8,7 @@ This document outlines the Cypress test cases developed for the login functional
 - 
 
 
-[Go to tests](https://github.com/ayhanmetin/Login-Page-Cypress-Test-Automation/tree/main/cypress/cypress_LoginPage_ScreenShot)
+[Go to tests](https://github.com/ayhanmetin/Ecommerce-Cypress-Test-Automation/tree/main/cypress/e2e/E-commerce_Test_File)
 
 
 ## Faker.js for Login Test
