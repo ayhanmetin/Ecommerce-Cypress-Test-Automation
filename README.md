@@ -5,11 +5,11 @@ This document outlines the Cypress test cases developed for the login functional
 ### Test Cases
 
 - Using Faker.js for Login Test
-- 
-
+- Using beforeEach for Login Setup
+- Payment Checkout
+- Product Removal from Shopping Cart
 
 [Go to tests](https://github.com/ayhanmetin/Ecommerce-Cypress-Test-Automation/tree/main/cypress/e2e/E-commerce_Test_File)
-
 
 ## Faker.js for Login Test
 
@@ -17,10 +17,23 @@ Verifies successful login with generated username and password.
 
 [Go to code](https://github.com/ayhanmetin/Ecommerce-Cypress-Test-Automation/blob/main/cypress/e2e/E-commerce_Test_File/Fakerjs_Login_Test.cy.js)
 
+## beforeEach for Login Test
 
+[Go to code](https://github.com/ayhanmetin/Ecommerce-Cypress-Test-Automation/blob/main/cypress/e2e/E-commerce_Test_File/Login_BeforeEach.cy.js)
 
----------------------------------------------------------
+## Payment Checkout
 
+Ensures the payment checkout process works as expected from start to finish.
+
+[Go to code](https://github.com/ayhanmetin/Ecommerce-Cypress-Test-Automation/blob/main/cypress/e2e/E-commerce_Test_File/Payment_Checkout.cy.js)
+
+## Product Removal from Shopping Cart
+
+Tests the functionality that allows users to remove a product from the card.
+
+[Go to code](https://github.com/ayhanmetin/Ecommerce-Cypress-Test-Automation/blob/main/cypress/e2e/E-commerce_Test_File/Remove_Card.cy.js)
+
+---
 
 ## Setup and Running Tests Locally
 
@@ -46,5 +59,3 @@ npm install
 ```bash
 npx cypress open
 ```
-
-
