@@ -1,6 +1,6 @@
 # Cypress Tests for Ecommerce Website
 
-This document outlines the Cypress test cases developed for the login functionality, ensuring both positive and negative scenarios are covered for robust validation.
+This document outlines the Cypress test cases developed for the fundamental functions of an e-commerce website. These tests are designed to check key features such as user authentication, product interaction, and payment processing.
 
 ### Test Cases
 
