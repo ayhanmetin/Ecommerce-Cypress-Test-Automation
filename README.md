@@ -19,6 +19,8 @@ Verifies successful login with generated username and password.
 
 ## beforeEach for Login Test
 
+This approach initializes the login test environment, ensuring a fresh state for each test case.
+
 [Go to code](https://github.com/ayhanmetin/Ecommerce-Cypress-Test-Automation/blob/main/cypress/e2e/E-commerce_Test_File/Login_BeforeEach.cy.js)
 
 ## Payment Checkout
