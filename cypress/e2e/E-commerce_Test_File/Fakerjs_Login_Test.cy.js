@@ -26,7 +26,7 @@ describe('Login Test with Dynamic Data', () => {
     // Use cy.wait() to pause the test
     cy.wait(1000);
 
-    // Verify the Add button's presence
+    // Verify the Add button's presence after login
     cy.get(':nth-child(1) > .card > .card-body > .btn').should('be.visible');
   });
 });

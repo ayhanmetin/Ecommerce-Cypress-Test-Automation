@@ -21,13 +21,12 @@ describe('Login Test with Dynamic Data', () => {
 
     // Adds items to the cart by clicking the "Add to Cart" button on specified cards.
     cy.get(':nth-child(1) > .card > .card-body > .btn').click();
-    // Corrected selector for the second card to ensure unique selection.
     cy.get(':nth-child(2) > .card > .card-body > .btn').click();
     cy.get(':nth-child(6) > .card > .card-body > .btn').click();
     cy.get(':nth-child(12) > .card > .card-body > .btn').click();
 
     // Navigates to the cart page.
-    cy.get('div.d-flex > .nav-link').click()
+    cy.get('div.d-flex > .nav-link').click();
 
     // Verifies the current URL to ensure the user is on the cart page.
     cy.url().should('include', '/cart');

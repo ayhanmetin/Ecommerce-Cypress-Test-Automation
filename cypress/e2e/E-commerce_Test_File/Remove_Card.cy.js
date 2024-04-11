@@ -4,8 +4,8 @@ describe('Product Removal from Shopping Cart Test', () => {
 
   beforeEach(() => {
     // Initializes username and password before each test.
-    username = "RandomUser123";
-    password = "SecurePassword!456";
+    username = 'RandomUser123';
+    password = 'SecurePassword!456';
   });
 
   it('successfully logs in, performs actions on cards, and verifies cart is empty after removal', () => {
@@ -25,7 +25,7 @@ describe('Product Removal from Shopping Cart Test', () => {
     cy.get(':nth-child(12) > .card > .card-body > .btn').click();
 
     // Navigates to the cart page.
-    cy.get('div.d-flex > .nav-link').click(); 
+    cy.get('div.d-flex > .nav-link').click();
 
     // Verifies the current URL to ensure the user is on the cart page.
     cy.url().should('include', '/cart');

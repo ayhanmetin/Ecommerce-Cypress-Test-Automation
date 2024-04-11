@@ -4,8 +4,8 @@ describe('Login Test with Dynamic Data', () => {
 
   beforeEach(() => {
     // Initialize the username and password before each test
-    username = "RandomUser123";
-    password = "SecurePassword!456";
+    username = 'RandomUser123';
+    password = 'SecurePassword!456';
   });
 
   it('successfully logs in with a dynamically generated username and password, then verifies the specific logout button', () => {
@@ -25,7 +25,7 @@ describe('Login Test with Dynamic Data', () => {
     // Verify the specific Logout button with text "Logout (Germany2024)" is present and visible on the page
     cy.contains('button', 'Logout (Germany2024)').should('be.visible');
 
-    // Verify the Add button's presence
+    // Verify the Add button's presence after login
     cy.get(':nth-child(1) > .card > .card-body > .btn').should('be.visible');
   });
 });
